@@ -56,8 +56,9 @@ namespace ChatbotApp
                 txtUserInput.Clear();
 
                 var chatGptReply = await GetChatGPTReply(userMessage);
-                txtBotOutput.AppendText("ChatGPT: " + chatGptReply + Environment.NewLine);
+                txtBotOutput.AppendText("New Life: " + chatGptReply + Environment.NewLine);
             }
         }
+
     }
 }
