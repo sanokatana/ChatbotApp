@@ -50,7 +50,7 @@
             // 
             // txtUserInput
             // 
-            this.txtUserInput.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtUserInput.BackColor = System.Drawing.SystemColors.Window;
             this.txtUserInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUserInput.Location = new System.Drawing.Point(12, 354);
             this.txtUserInput.Multiline = true;
